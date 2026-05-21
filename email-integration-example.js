@@ -15,7 +15,7 @@
 
 // Initialize EmailJS (add this near the top of script.js)
 // Get your public key from: https://dashboard.emailjs.com/admin/account
-emailjs.init("YOUR_PUBLIC_KEY"); // e.g., "user_abc123xyz"
+emailjs.init("_d7lu5UoHYQCvUzq1"); // e.g., "user_abc123xyz"
 
 // Replace the contact form submission handler with this:
 contactForm.addEventListener('submit', async (e) => {
@@ -68,8 +68,8 @@ contactForm.addEventListener('submit', async (e) => {
     try {
         // Send email via EmailJS
         // Get these IDs from: https://dashboard.emailjs.com/admin
-        const serviceID = 'YOUR_SERVICE_ID';    // e.g., 'service_abc123'
-        const templateID = 'YOUR_TEMPLATE_ID';  // e.g., 'template_xyz789'
+        const serviceID = 'service_uvdfqpq';    // e.g., 'service_abc123'
+        const templateID = 'template_t8a47bt';  // e.g., 'template_xyz789'
         
         // Template variables (must match your EmailJS template)
         const templateParams = {
@@ -84,7 +84,7 @@ contactForm.addEventListener('submit', async (e) => {
         await emailjs.send(serviceID, templateID, templateParams);
 
         // Success!
-        showMessage('Thank you for your message! I will get back to you within 24 hours.', 'success');
+        showMessage('Thank you for your message! I will get back to you as soon as possible.', 'success');
         contactForm.reset();
 
     } catch (error) {
