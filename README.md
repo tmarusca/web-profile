@@ -12,13 +12,31 @@ A modern, responsive portfolio website showcasing expert-level data science and 
 ## Features
 
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Professional Headshot**: Your actual professional photo with optimized styling
 - **Interactive Navigation**: Smooth scrolling and active section highlighting
 - **Skills Showcase**: Comprehensive display of technical competencies across 6 categories
-- **Professional Experience**: Timeline view of 9+ years of industry experience
+- **Professional Experience**: Timeline view of 10+ years of industry experience
 - **Testimonials**: Quotes from colleagues highlighting key strengths
-- **Contact Form**: Interactive form for potential clients to reach out
+- **Contact Form**: Interactive form with spam protection and human verification
 - **Modern Animations**: Smooth scroll animations and transitions
 - **Performance Optimized**: Fast loading and efficient code
+- **Email Protection**: Obfuscated contact details to prevent spam
+
+## Setup Your Professional Photo
+
+1. **Save your photo** to `assets/images/profile.jpg` (or `profile.png` if transparent)
+2. **Optional: Remove background** using the included tool:
+   ```bash
+   open remove-background-tool.html
+   ```
+   Or visit https://www.remove.bg/ directly
+3. **Refresh your browser** - your photo will appear automatically!
+
+The website is already configured to display your professional headshot with:
+- Circular frame styling
+- Hover animations
+- Fallback to avatar if image not found
+- Support for both JPG (with background) and PNG (transparent)
 
 ## Technologies Used
 

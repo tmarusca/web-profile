@@ -355,18 +355,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .profile-image {
-    width: 280px;
-    height: 280px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    box-shadow: var(--shadow-xl);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     border: 6px solid white;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
     object-fit: cover;
+    object-position: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .profile-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+    border-color: var(--primary-light);
+}
+
+/* Professional appearance for images with or without background */
+@supports (backdrop-filter: blur(10px)) {
+    .profile-image {
+        backdrop-filter: blur(10px);
+    }
 }
 
 .image-placeholder {

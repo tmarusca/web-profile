@@ -1,0 +1,18 @@
+┌─────────────────────────────────────────────────┐
+│  📸 SAVE YOUR PROFESSIONAL PHOTO HERE  📸       │
+│                                                 │
+│  1. Right-click the image you attached         │
+│  2. "Save Image As..."                          │
+│  3. Save to this location:                      │
+│                                                 │
+│     assets/images/profile.jpg                   │
+│                                                 │
+│  OR drag & drop the image into:                 │
+│     web_profile/assets/images/                  │
+│                                                 │
+│  Then name it: profile.jpg                      │
+│                                                 │
+│  ✅ Website is ready to display it!            │
+└─────────────────────────────────────────────────┘
+
+Optional: Remove background at https://www.remove.bg/
